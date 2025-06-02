@@ -11,7 +11,7 @@ const Nav = () => {
 
   return (
     <nav className="bg-[#1C2430]">
-      <div className="flex justify-between items-center py-2 max-w-[880px] mx-auto relative">
+      <div className="flex justify-between items-center py-2 max-w-[880px] px-4 mx-auto relative">
         <a
           href="#"
           className="text-white font-normal text-[21.64px] leading-[100%] Franklin "
