@@ -29,7 +29,7 @@ const Header = () => {
             </div>
             <div className="w-full">
               <img
-                className="lg:absolute right-0 bottom-0 w-full max-w-[557px]"
+                className="lg:absolute right-0 bottom-0 w-full max-w-[557px] pointer-events-none"
                 src={CartoonCat}
                 alt="cartoon-cat-img"
               />
@@ -38,11 +38,11 @@ const Header = () => {
         </div>
         <img
           src={LeftLight}
-          className="w-full max-w-[355px] absolute left-0 bottom-[-2%] hidden xl:block"
+          className="w-full max-w-[355px] absolute left-0 bottom-[-2%] hidden xl:block pointer-events-none"
           alt="left-light-svg"
         />
         <img
-          className="hidden lg:block absolute w-full max-w-[556px] right-0 bottom-[-6%]"
+          className="hidden lg:block absolute w-full max-w-[556px] right-0 bottom-[-6%] pointer-events-none"
           src={rightLight}
           alt=""
         />
