@@ -3,7 +3,7 @@ export const Discord = () => (
     xmlns="http://www.w3.org/2000/svg"
     width="24"
     height="24"
-    fill="currentColor"
+    fill="white"
     class="bi bi-discord"
     viewBox="0 0 16 16"
   >
@@ -15,7 +15,7 @@ export const Twitter = () => (
     xmlns="http://www.w3.org/2000/svg"
     width="24"
     height="24"
-    fill="currentColor"
+    fill="white"
     class="bi bi-twitter"
     viewBox="0 0 16 16"
   >
