@@ -9,3 +9,33 @@
     src: url(../assets/fonts/Sarabun-Regular.ttf) format('truetype');
     font-family: "Sarabun", sans-serif;
 }
+
+@layer utilities {
+    @keyframes infiniteScroll {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+
+    @keyframes reverseScroll {
+        0% {
+            transform: translateX(-100%);
+        }
+
+        100% {
+            transform: translateX(0);
+        }
+    }
+
+    .animate-infiniteScroll {
+        animation: infiniteScroll 100s linear infinite;
+    }
+
+    .animate-reverseScroll {
+        animation: reverseScroll 100s linear infinite;
+    }
+}
