@@ -24,7 +24,7 @@ const Team = () => {
                   {item.para}
                 </p>
                 <a
-                  className="flex justify-center pt-[8px] pb-[36px]"
+                  className="flex justify-center mt-2 mb-9"
                   href=""
                   target="_blank"
                 >
