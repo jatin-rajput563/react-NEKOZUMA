@@ -12,36 +12,24 @@ const Slider = () => {
   const leftImages = [SliderImg1, SliderImg2, SliderImg3, SliderImg4];
   const rightImages = [SliderImg5, SliderImg6, SliderImg7, SliderImg8];
 
-  const repeatedLeftImages = Array(20).fill(leftImages).flat();
-  const repeatedRightImages = Array(20).fill(rightImages).flat();
+  const repeatedLeftImages = Array(50).fill(leftImages).flat();
+  const repeatedRightImages = Array(50).fill(rightImages).flat();
 
   return (
-    <div className="bg-[#1C2430]">
-      <div className="slider-wrapper overflow-hidden">
-        <div className="slide-track flex w-max animate-infiniteScroll">
-          {repeatedLeftImages.map((img, i) => (
-            <div key={i} className="slide w-[300px] flex-shrink-0">
-              <img
-                src={img}
-                alt={`left-img-${i}`}
-                className="w-full"
-              />
-            </div>
-          ))}
-        </div>
+    <div className="bg-[#1C2430] overflow-hidden">
+      <div className="slide-track flex w-max animate-infiniteScroll">
+        {repeatedLeftImages.map((img, i) => (
+          <div key={i} className="slide w-[300px] flex-shrink-0">
+            <img src={img} alt={img} className="w-full" />
+          </div>
+        ))}
       </div>
-      <div className="slider-wrapper overflow-hidden">
-        <div className="slide-track flex w-max animate-reverseScroll">
-          {repeatedRightImages.map((img, i) => (
-            <div key={i} className="slide w-[300px] flex-shrink-0">
-              <img
-                src={img}
-                alt={`right-img-${i}`}
-                className="w-full"
-              />
-            </div>
-          ))}
-        </div>
+      <div className="slide-track flex w-max animate-reverseScroll">
+        {repeatedRightImages.map((img, i) => (
+          <div key={i} className="slide w-[300px] flex-shrink-0">
+            <img src={img} alt={img} className="w-full" />
+          </div>
+        ))}
       </div>
     </div>
   );
