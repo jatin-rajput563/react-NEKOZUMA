@@ -4,7 +4,7 @@ const Discription = ({ DescriptionText, DescriptionClass }) => {
   return (
     <div>
       <p
-        className={`font-normal m-0 text-base text-[#D4E5FF] ${DescriptionClass}`}
+        className={`font-normal m-0 text-base max-[500px]:text-[14px] text-[#D4E5FF] ${DescriptionClass}`}
       >
         {DescriptionText}
       </p>

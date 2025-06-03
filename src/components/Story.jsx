@@ -18,7 +18,7 @@ const Story = () => {
             DescriptionText="However at every junction in time, there is always a darkness that is waiting to overthrow the good. Hence, each timeline has its own arch nemesis. This means that there will be a total of 4 godly nekos from each timeline making a total of 12 godly nekos that will be fully animated."
           />
         </div>
-        <img className="w-full mx-auto pt-[58px] max-h-[357px]" src={storyImg} alt="story-img" />
+        <img className="w-full mx-auto max-[500px]:pt-[10px] pt-[58px] max-h-[357px]" src={storyImg} alt="story-img" />
       </div>
     </>
   );

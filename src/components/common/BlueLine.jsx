@@ -1,9 +1,9 @@
 import React from "react";
 
-const BlueLine = () => {
+const BlueLine = ({ lineClass }) => {
   return (
     <div>
-      <div className="w-[164px] border border-[#3586FF]"></div>
+      <div className={`w-[164px] border border-[#3586FF] ${lineClass}`}></div>
     </div>
   );
 };
