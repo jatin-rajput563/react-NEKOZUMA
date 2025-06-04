@@ -40,11 +40,11 @@ body {
     }
 
     .animate-infiniteScroll {
-        animation: infiniteScroll 300s linear infinite;
+        animation: infiniteScroll 900s linear infinite;
     }
 
     .animate-reverseScroll {
-        animation: reverseScroll 300s linear infinite;
+        animation: reverseScroll 900s linear infinite;
     }
 }
 
