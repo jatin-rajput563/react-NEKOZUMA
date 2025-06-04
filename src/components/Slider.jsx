@@ -20,14 +20,14 @@ const Slider = () => {
       <div className="slide-track flex w-max animate-infiniteScroll">
         {repeatedLeftImages.map((img, i) => (
           <div key={i} className="slide w-[300px] flex-shrink-0">
-            <img src={img} alt={img} className="w-full" />
+            <img src={img} alt={img} className="w-full pointer-events-none" />
           </div>
         ))}
       </div>
       <div className="slide-track flex w-max animate-reverseScroll">
         {repeatedRightImages.map((img, i) => (
           <div key={i} className="slide w-[300px] flex-shrink-0">
-            <img src={img} alt={img} className="w-full" />
+            <img src={img} alt={img} className="w-full pointer-events-none" />
           </div>
         ))}
       </div>
