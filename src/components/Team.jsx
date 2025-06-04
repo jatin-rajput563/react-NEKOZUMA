@@ -8,7 +8,7 @@ const Team = () => {
     <>
       <div className=" bg-[#1C2430] max-[500px]:pt-[22px] pt-[61px] pb-[36px]">
         <div className="max-w-[880px] px-4 mx-auto">
-          <BlueLine lineClass="flex mx-auto" />
+          <BlueLine lineClass="mx-auto" />
           <Heading HeadingText="Team" HeadingClass="text-center py-[56px] max-[500px]:py-[10px]" />
           <div className="flex flex-wrap ">
             {IMAGE_DATA.map((item, index) => (

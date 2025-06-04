@@ -48,7 +48,7 @@ const Nav = () => {
           {["Overview", "Story", "Team"].map((item, i) => (
             <li
               key={i}
-              className="text-white text-lg cursor-pointer relative group transition-all duration-300"
+              className="text-white text-base cursor-pointer relative group transition-all duration-300"
             >
               <a
                 href="#"
@@ -60,7 +60,7 @@ const Nav = () => {
             </li>
           ))}
 
-          <li className="text-white text-lg cursor-pointer transition-all duration-300 hover:scale-125 hover:text-cyan-400 hover:drop-shadow-[0_0_10px_#00FFE0] hover:animate-pulse">
+          <li className="text-white text-base cursor-pointer transition-all duration-300 hover:scale-125 hover:text-cyan-400 hover:drop-shadow-[0_0_10px_#00FFE0] hover:animate-pulse">
             <a
               href="#"
               target="blank"
@@ -70,7 +70,7 @@ const Nav = () => {
             </a>
           </li>
 
-          <li className="text-white text-lg cursor-pointer transition-all duration-300 hover:scale-125 hover:text-cyan-400 hover:drop-shadow-[0_0_10px_#00FFE0] hover:animate-pulse">
+          <li className="cursor-pointer transition-all duration-300 hover:scale-125 hover:text-cyan-400 hover:drop-shadow-[0_0_10px_#00FFE0] hover:animate-pulse">
             <a
               href="#"
               target="blank"

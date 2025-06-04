@@ -1,7 +1,21 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
-.Franklin {
-    font-family: 'Franklin Gothic', sans-serif;
+html,
+body {
+    background-color: #1C2430 !important;
+    font-family: "Sarabun", sans-serif !important;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'FranklinBold';
+    src: url('../src/assets/fonts/FranklinGothic-Bold.otf') format('opentype');
+    font-weight: 700;
+}
+
+.ff-franklin {
+    font-family: 'franklin', sans-serif;
 }
 
 @layer utilities {
@@ -32,26 +46,6 @@
     .animate-reverseScroll {
         animation: reverseScroll 300s linear infinite;
     }
-}
-
-.mx-w-1140 {
-    max-width: 1140px !important;
-}
-
-.menu-lines {
-    width: 30px;
-    height: 5px;
-    margin-bottom: 5px;
-    display: flex;
-    z-index: 10;
-    transition: all 300ms linear;
-    transform-origin: left;
-    border-radius: 10px;
-    background-color: #fff;
-}
-
-.z-5 {
-    z-index: 5;
 }
 
 @media (max-width:991.98px) {
